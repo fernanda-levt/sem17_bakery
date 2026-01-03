@@ -1,7 +1,9 @@
+import Hero from "./components/Hero"
+
 function App() {
   return (
     <div>
-      <h1>Bakery</h1>
+      <Hero />
     </div>
   )
 }
