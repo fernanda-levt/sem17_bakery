@@ -1,8 +1,9 @@
 import Header from "./components/Header"
 import Hero from "./components/Hero"
-import Menu from "./components/Menu"
 import Story from "./components/Story"
 import SubBanners from "./components/SubBanners"
+import Menu from "./components/Menu"
+import Delight from "./components/Delight"
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         subtitle="tasty"
         image="/public/images/tasty.jpg"
       />
+      <Delight />
 
     </div>
   )

@@ -39,6 +39,10 @@ img {
   padding-right: 7rem;
 }
 
+.row>div {
+  flex: 1;
+}
+
 /*Header*/
 .navbar {
   height: 7rem;
@@ -193,15 +197,11 @@ h1.headline {
 }
 
 .story-img {
-  max-width: 80rem;
+  max-width: 40rem;
 }
 
 .description {
   margin-bottom: 3rem;
-}
-
-.our-story .global-headline {
-  margin-top: 6.9rem
 }
 
 .link-info {
