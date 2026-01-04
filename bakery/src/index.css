@@ -168,9 +168,14 @@ h1.headline {
 }
 
 .headline-dark {
-  color: var(--main-font-color-dark);
+  color: #252525;
   letter-spacing: .7rem;
   margin-right: -.7rem
+}
+
+.global-headline {
+  margin-top: 3.9rem;
+  text-align: center
 }
 
 .global-headline .sub-headline {
@@ -195,11 +200,6 @@ h1.headline {
   margin-bottom: 3rem;
 }
 
-.global-headline {
-  margin-top: 3.9rem;
-  text-align: center
-}
-
 .our-story .global-headline {
   margin-top: 6.9rem
 }
@@ -217,4 +217,15 @@ h1.headline {
 
 .link-info:hover {
   color: #252525;
+}
+
+/*SubBanners*/
+.image-section {
+  height: 460px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
