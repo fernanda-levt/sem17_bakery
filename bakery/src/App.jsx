@@ -1,5 +1,6 @@
 import Header from "./components/Header"
 import Hero from "./components/Hero"
+import Menu from "./components/Menu"
 import Story from "./components/Story"
 import SubBanners from "./components/SubBanners"
 
@@ -14,7 +15,7 @@ function App() {
         subtitle="fresh"
         image="/public/images/tasteful-recipes.jpg"
       />
-
+      <Menu />
       <SubBanners
         title="Everything"
         subtitle="tasty"
