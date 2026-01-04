@@ -9,13 +9,13 @@ html {
   font-size: 10px;
 }
 
-header {
-  display: block;
-  unicode-bidi: isolate;
-}
-
 a {
   text-decoration: none;
+}
+
+p {
+  font-size: 1.6rem;
+  margin: 2.4rem 0;
 }
 
 section {
@@ -23,11 +23,20 @@ section {
   overflow: hidden;
 }
 
+img {
+  width: 100%;
+  max-width: 100%
+}
+
 .container {
   width: 100%;
   max-width: 122.5rem;
   margin: 0 auto;
   padding: 0 2.4rem;
+}
+
+.padding-right {
+  padding-right: 7rem;
 }
 
 /*Header*/
@@ -102,12 +111,20 @@ section {
 }
 
 .headline {
-  font-family: "Poiret One", sans-serif;
-  font-size: 5.5rem;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
   color: #ffffff;
-  font-weight: 400;
-  margin-bottom: 4rem;
+  text-transform: uppercase;
   letter-spacing: .5rem;
+  margin-right: -.5rem
+}
+
+h1.headline {
+  font-family: "Poiret One", cursive;
+  margin-bottom: 4rem;
+  font-weight: 400;
+  font-size: 5.5rem;
 }
 
 .hero button {
@@ -117,11 +134,87 @@ section {
   padding: 20px 28px;
   cursor: pointer;
   font-size: 14px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   transition: all .4s;
 }
 
 .hero button:hover {
   background-color: #ffffff;
   color: #e1b164;
+}
+
+/*Story*/
+.row {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  padding: 0px;
+  align-items: center;
+  text-align: center;
+}
+
+.sub-headline {
+  font-size: 8.5rem;
+  font-family: "Herr Von Muellerhoff", cursive;
+  color: #e1b164;
+  font-weight: 100;
+  line-height: .4;
+  letter-spacing: 2px;
+}
+
+.sub-headline:first-letter {
+  text-transform: uppercase;
+  font-size: 10.3rem
+}
+
+.headline-dark {
+  color: var(--main-font-color-dark);
+  letter-spacing: .7rem;
+  margin-right: -.7rem
+}
+
+.global-headline .sub-headline {
+  letter-spacing: -1px;
+  line-height: .42;
+}
+
+.description {
+  margin-bottom: 3rem;
+}
+
+.description p {
+  line-height: 1.6;
+  margin-bottom: 2.4rem
+}
+
+.story-img {
+  max-width: 80rem;
+}
+
+.description {
+  margin-bottom: 3rem;
+}
+
+.global-headline {
+  margin-top: 3.9rem;
+  text-align: center
+}
+
+.our-story .global-headline {
+  margin-top: 6.9rem
+}
+
+.link-info {
+  color: #e1b164;
+  position: relative;
+  display: inline-block;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: color .5s;
+  text-decoration-line: underline;
+}
+
+.link-info:hover {
+  color: #252525;
 }
