@@ -4,6 +4,7 @@ import Story from "./components/Story"
 import SubBanners from "./components/SubBanners"
 import Menu from "./components/Menu"
 import Delight from "./components/Delight"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
         image="/public/images/tasty.jpg"
       />
       <Delight />
-
+      <Footer />
     </div>
   )
 }
