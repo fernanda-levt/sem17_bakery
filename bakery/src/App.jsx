@@ -15,13 +15,13 @@ function App() {
       <SubBanners
         title="Always"
         subtitle="fresh"
-        image="/public/images/tasteful-recipes.jpg"
+        image="/images/tasteful-recipes.jpg"
       />
       <Menu />
       <SubBanners
         title="Everything"
         subtitle="tasty"
-        image="/public/images/tasty.jpg"
+        image="/images/tasty.jpg"
       />
       <Delight />
       <Footer />

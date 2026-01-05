@@ -4,10 +4,10 @@ function Menu() {
       <div className="container">
         <div className="row">
           <div className="image-group padding-right">
-            <img src="/public/images/square-1.jpg" alt="image menu" />
-            <img src="/public/images/square-2.jpg" alt="image menu" />
-            <img src="/public/images/square-3.jpg" alt="image menu" />
-            <img src="/public/images/square-4.jpg" alt="image menu" />
+            <img src="/images/square-1.jpg" alt="image menu" />
+            <img src="/images/square-2.jpg" alt="image menu" />
+            <img src="/images/square-3.jpg" alt="image menu" />
+            <img src="/images/square-4.jpg" alt="image menu" />
           </div>
           <div className="description">
             <div className="global-headline">
