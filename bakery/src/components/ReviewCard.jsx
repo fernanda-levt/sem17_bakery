@@ -6,7 +6,7 @@ function ReviewCard({ review, onDelete }) {
       </button>
 
       <div className="stars">
-        <img src="/public/images/estrellas.png" alt="estrellas" />
+        <img src={`${import.meta.env.BASE_URL}images/estrellas.png`} alt="estrellas" />
       </div>
       <p>{review.text}</p>
       <span>{review.name}</span>

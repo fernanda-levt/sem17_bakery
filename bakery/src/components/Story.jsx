@@ -14,7 +14,7 @@ function Story() {
             <a href="#" className="link-info">LEARN MORE</a>
           </div>
           <div className="story-image">
-            <img src="/images/story-img.jpg" className="story-img" alt="Bakery story" />
+            <img src={`${import.meta.env.BASE_URL}images/story-img.jpg`} className="story-img" alt="Bakery story" />
           </div>
         </div>
       </div>

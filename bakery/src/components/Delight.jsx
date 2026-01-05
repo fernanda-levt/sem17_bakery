@@ -14,8 +14,8 @@ function Delight() {
             <a href="#" className="link-info">MAKE A RESERVATION</a>
           </div>
           <div className="image-group">
-            <img src="/images/bakers-delight-1.jpg" alt="Bakery story" />
-            <img src="/images/bakers-delight-2.jpg" alt="Bakery story" />
+            <img src={`${import.meta.env.BASE_URL}images/bakers-delight-1.jpg`} alt="Bakery story" />
+            <img src={`${import.meta.env.BASE_URL}images/bakers-delight-2.jpg`} alt="Bakery story" />
           </div>
         </div>
       </div>

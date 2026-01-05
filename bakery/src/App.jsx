@@ -15,13 +15,13 @@ function App() {
       <SubBanners
         title="Always"
         subtitle="fresh"
-        image="/images/tasteful-recipes.jpg"
+        image={`${import.meta.env.BASE_URL}images/tasteful-recipes.jpg`}
       />
       <Menu />
       <SubBanners
         title="Everything"
         subtitle="tasty"
-        image="/images/tasty.jpg"
+        image={`${import.meta.env.BASE_URL}images/tasty.jpg`}
       />
       <Delight />
       <Footer />
